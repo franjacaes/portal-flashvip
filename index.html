@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flash Vip — Portal de Clientes</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --azul: #1A3A5C;
+    --naranja: #F5A623;
+    --naranja-dark: #D4891A;
+    --verde: #2E7D32;
+    --rojo: #C62828;
+    --amarillo: #F57F17;
+    --gris: #F5F5F5;
+    --borde: #E0E0E0;
+    --texto: #1A1A1A;
+    --texto-suave: #666;
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: var(--gris);
+    color: var(--texto);
+    min-height: 100vh;
+  }
+
+  /* ── LOGIN ── */
+  #pantalla-login {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background: linear-gradient(160deg, #1A3A5C 0%, #0E2336 100%);
+  }
+  .login-card {
+    background: white;
+    border-radius: 16px;
+    padding: 36px 32px;
+    width: 100%;
+    max-width: 380px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  }
+  .logo-wrap {
+    display: flex; flex-direction: column; align-items: center; margin-bottom: 28px;
+  }
+  .logo-circle {
+    width: 72px; height: 72px; border-radius: 50%;
+    background: var(--naranja); display: flex; align-items: center;
+    justify-content: center; font-size: 26px; font-weight: 700;
+    color: var(--azul); margin-bottom: 12px;
+  }
+  .logo-titulo { font-size: 22px; font-weight: 700; color: var(--azul); }
+  .logo-sub { font-size: 13px; color: var(--texto-suave); margin-top: 4px; text-align: center; }
+
+  .campo-label { font-size: 12px; color: var(--texto-suave); margin-bottom: 6px; display: block; }
+  .campo-input {
+    width: 100%; padding: 12px 14px; border: 1.5px solid var(--borde);
+    border-radius: 10px; font-size: 15px; color: var(--texto);
+    background: #FAFAFA; margin-bottom: 16px; transition: border-color .2s;
+  }
+  .campo-input:focus { outline: none; border-color: var(--azul); background: white; }
+  .btn-login {
+    width: 100%; padding: 13px; background: var(--azul); color: white;
+    border: none; border-radius: 10px; font-size: 15px; font-weight: 600;
+    cursor: pointer; transition: background .2s;
+  }
+  .btn-login:hover { background: #0E2336; }
+  .error-msg {
+    background: #FFEBEE; color: var(--rojo); border-radius: 8px;
+    padding: 10px 14px; font-size: 13px; margin-bottom: 16px; display: none;
+  }
+  .btn-wa-login {
+    width: 100%; padding: 11px; background: #25D366; color: white;
+    border: none; border-radius: 10px; font-size: 14px; font-weight: 600;
+    cursor: pointer; margin-top: 12px; display: flex; align-items: center;
+    justify-content: center; gap: 8px;
+  }
+
+  /* ── DASHBOARD ── */
+  #pantalla-dashboard { display: none; }
+  .topbar {
+    background: var(--azul); color: white;
+    padding: 16px 20px; display: flex; align-items: center; justify-content: space-between;
+  }
+  .topbar-info { }
+  .topbar-nombre { font-size: 16px; font-weight: 600; }
+  .topbar-alumno { font-size: 12px; opacity: 0.75; margin-top: 2px; }
+  .topbar-colegio {
+    display: inline-block; margin-top: 6px;
+    background: rgba(245,166,35,0.2); border: 1px solid rgba(245,166,35,0.4);
+    border-radius: 20px; padding: 3px 12px; font-size: 11px; color: var(--naranja);
+  }
+  .btn-salir {
+    background: rgba(255,255,255,0.15); border: none; color: white;
+    padding: 7px 14px; border-radius: 8px; cursor: pointer; font-size: 13px;
+  }
+
+  .contenido { max-width: 600px; margin: 0 auto; padding: 20px 16px; }
+
+  .seccion-titulo {
+    font-size: 11px; font-weight: 600; color: var(--texto-suave);
+    text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 10px;
+  }
+
+  /* Tarjetas resumen */
+  .grid-resumen { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 20px; }
+  .tarjeta-resumen {
+    background: white; border-radius: 12px; padding: 16px;
+    border: 1px solid var(--borde); text-align: center;
+  }
+  .tarjeta-numero { font-size: 28px; font-weight: 700; }
+  .tarjeta-label { font-size: 11px; color: var(--texto-suave); margin-top: 4px; }
+  .color-azul { color: var(--azul); }
+  .color-verde { color: var(--verde); }
+  .color-rojo { color: var(--rojo); }
+  .color-naranja { color: var(--naranja-dark); }
+
+  /* Barra progreso */
+  .tarjeta-progreso {
+    background: white; border-radius: 12px; padding: 16px;
+    border: 1px solid var(--borde); margin-bottom: 20px;
+  }
+  .progreso-header { display: flex; justify-content: space-between; margin-bottom: 8px; }
+  .progreso-texto { font-size: 13px; font-weight: 600; }
+  .progreso-pct { font-size: 13px; color: var(--texto-suave); }
+  .barra-wrap { background: #EEE; border-radius: 20px; height: 10px; }
+  .barra-fill { background: var(--azul); border-radius: 20px; height: 10px; transition: width .5s; }
+
+  /* Lista cuotas */
+  .tarjeta-cuotas {
+    background: white; border-radius: 12px;
+    border: 1px solid var(--borde); margin-bottom: 20px; overflow: hidden;
+  }
+  .cuota-fila {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 13px 16px; border-bottom: 1px solid var(--borde);
+  }
+  .cuota-fila:last-child { border-bottom: none; }
+  .cuota-nombre { font-size: 14px; font-weight: 500; }
+  .cuota-monto { font-size: 12px; color: var(--texto-suave); margin-top: 2px; }
+  .badge {
+    font-size: 11px; font-weight: 600; padding: 4px 10px; border-radius: 20px;
+    white-space: nowrap;
+  }
+  .badge-pagada    { background: #E8F5E9; color: #2E7D32; }
+  .badge-pendiente { background: #FFF8E1; color: #F57F17; }
+  .badge-negociado { background: #E3F2FD; color: #1565C0; }
+
+  /* Botones acción */
+  .acciones { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 20px; }
+  .btn-accion {
+    background: white; border: 1px solid var(--borde); border-radius: 12px;
+    padding: 16px 12px; display: flex; flex-direction: column; align-items: center;
+    gap: 8px; cursor: pointer; font-size: 13px; color: var(--texto);
+    transition: background .15s;
+  }
+  .btn-accion:hover { background: #F0F4F8; }
+  .btn-accion-icon { font-size: 24px; }
+  .btn-wa-dash {
+    width: 100%; padding: 14px; background: #25D366; color: white;
+    border: none; border-radius: 12px; font-size: 15px; font-weight: 600;
+    cursor: pointer; display: flex; align-items: center; justify-content: center;
+    gap: 10px; margin-bottom: 20px;
+  }
+
+  /* Footer actualización */
+  .footer-actualizacion {
+    text-align: center; font-size: 12px; color: var(--texto-suave);
+    padding: 16px 0 32px;
+  }
+  .footer-actualizacion span { color: var(--azul); font-weight: 600; }
+
+  @media (max-width: 400px) {
+    .login-card { padding: 28px 20px; }
+    .grid-resumen { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════════════ LOGIN -->
+<div id="pantalla-login">
+  <div class="login-card">
+    <div class="logo-wrap">
+      <div class="logo-circle">FV</div>
+      <div class="logo-titulo">Flash Vip</div>
+      <div class="logo-sub">Portal de clientes · Último año de colegio</div>
+    </div>
+
+    <div id="error-login" class="error-msg">
+      Usuario o contraseña incorrectos. Verificá tu número de cédula.
+    </div>
+
+    <label class="campo-label">Número de cédula (usuario)</label>
+    <input class="campo-input" type="text" id="input-usuario" placeholder="Ej: 3997422" />
+
+    <label class="campo-label">Contraseña</label>
+    <input class="campo-input" type="password" id="input-password" placeholder="••••••••"
+      onkeydown="if(event.key==='Enter') login()" />
+
+    <button class="btn-login" onclick="login()">Ingresar</button>
+
+    <button class="btn-wa-login" onclick="abrirWA()">
+      <span>💬</span> Contactar a Flash Vip
+    </button>
+
+    <div style="text-align:center; font-size:11px; color:#AAA; margin-top:16px;">
+      Tu usuario y contraseña son tu número de cédula
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════ DASHBOARD -->
+<div id="pantalla-dashboard">
+
+  <div class="topbar">
+    <div class="topbar-info">
+      <div class="topbar-nombre" id="dash-nombre-contratante"></div>
+      <div class="topbar-alumno">Alumno/a: <span id="dash-nombre-alumno"></span></div>
+      <span class="topbar-colegio" id="dash-colegio"></span>
+    </div>
+    <button class="btn-salir" onclick="salir()">Salir</button>
+  </div>
+
+  <div class="contenido">
+
+    <!-- Resumen -->
+    <div class="seccion-titulo" style="margin-top:4px;">Resumen de cuenta</div>
+    <div class="tarjeta-resumen" style="margin-bottom:12px; border-left:4px solid #C62828;">
+      <div style="font-size:11px; color:var(--texto-suave); margin-bottom:6px;">Saldo pendiente</div>
+      <div style="font-size:30px; font-weight:700; color:#C62828;" id="dash-saldo">Gs. 0</div>
+      <div style="font-size:11px; color:var(--texto-suave); margin-top:4px;">de un total de <span id="dash-monto-total" style="font-weight:600;">Gs. 0</span></div>
+    </div>
+    <div class="grid-resumen">
+      <div class="tarjeta-resumen">
+        <div class="tarjeta-numero color-azul" id="dash-total-cuotas">0/13</div>
+        <div class="tarjeta-label">Cuotas pagas</div>
+      </div>
+      <div class="tarjeta-resumen">
+        <div class="tarjeta-numero color-rojo" id="dash-pendientes">0</div>
+        <div class="tarjeta-label">Pendientes</div>
+      </div>
+    </div>
+
+    <!-- Progreso -->
+    <div class="tarjeta-progreso">
+      <div class="progreso-header">
+        <span class="progreso-texto">Progreso del plan</span>
+        <span class="progreso-pct" id="dash-pct">0%</span>
+      </div>
+      <div class="barra-wrap">
+        <div class="barra-fill" id="dash-barra" style="width:0%"></div>
+      </div>
+    </div>
+
+    <!-- Acciones rápidas -->
+    <div class="seccion-titulo">Acciones rápidas</div>
+    <div style="margin-bottom:12px;">
+      <button class="btn-accion" style="width:100%; flex-direction:row; justify-content:center; gap:12px; padding:16px;" onclick="mostrarMetodos()">
+        <span class="btn-accion-icon">💳</span>
+        <span style="font-size:14px;">Métodos de pago</span>
+      </button>
+    </div>
+
+    <!-- WhatsApp -->
+    <button class="btn-wa-dash" onclick="abrirWA()">
+      <span>💬</span> Contactar a la oficina por WhatsApp
+    </button>
+
+    <!-- Lista de cuotas -->
+    <div class="seccion-titulo" id="ancla-cuotas">Detalle de cuotas</div>
+    <div class="tarjeta-cuotas" id="lista-cuotas"></div>
+
+    <!-- Footer -->
+    <div class="footer-actualizacion">
+      Última actualización: <span id="dash-actualizacion">—</span>
+    </div>
+
+  </div>
+</div>
+
+<script>
+// ── CONFIGURACIÓN ──────────────────────────────────────────────────────────
+const WA_NUMERO  = "595973531720";
+const WA_MENSAJE = "Hola Flash Vip, quiero consultar sobre mi plan de pagos.";
+const DATOS_URL  = "datos.json"; // mismo directorio que este HTML
+
+// ── ESTADO ────────────────────────────────────────────────────────────────
+let datosApp   = null;
+let clienteActual = null;
+
+// ── CARGA DATOS ───────────────────────────────────────────────────────────
+async function cargarDatos() {
+  try {
+    const r = await fetch(DATOS_URL + "?t=" + Date.now());
+    datosApp = await r.json();
+  } catch (e) {
+    alert("No se pudo cargar el archivo de datos. Asegurate de que datos.json esté en la misma carpeta.");
+  }
+}
+
+// ── LOGIN ──────────────────────────────────────────────────────────────────
+async function login() {
+  if (!datosApp) await cargarDatos();
+  if (!datosApp) return;
+
+  const usuario  = document.getElementById("input-usuario").value.trim();
+  const password = document.getElementById("input-password").value.trim();
+  const errorEl  = document.getElementById("error-login");
+
+  const cliente = datosApp.clientes.find(
+    c => c.usuario === usuario && c.password === password
+  );
+
+  if (!cliente) {
+    errorEl.style.display = "block";
+    return;
+  }
+
+  errorEl.style.display = "none";
+  clienteActual = cliente;
+  mostrarDashboard(cliente);
+}
+
+// ── DASHBOARD ──────────────────────────────────────────────────────────────
+function mostrarDashboard(c) {
+  document.getElementById("pantalla-login").style.display     = "none";
+  document.getElementById("pantalla-dashboard").style.display = "block";
+
+  document.getElementById("dash-nombre-contratante").textContent = c.nombre_contratante;
+  document.getElementById("dash-nombre-alumno").textContent      = c.nombre_alumno;
+  document.getElementById("dash-colegio").textContent           = "Colegio " + c.colegio;
+  document.getElementById("dash-actualizacion").textContent     = datosApp.ultima_actualizacion;
+
+  // Calcular estadísticas
+  const pagadas    = c.pagos.filter(p => p.estado === "pagada").length;
+  const pendientes = c.pagos.filter(p => p.estado === "pendiente").length;
+  const total      = c.pagos.length;
+  const pct        = Math.round((pagadas / total) * 100);
+
+  document.getElementById("dash-total-cuotas").textContent = pagadas + "/" + total;
+  document.getElementById("dash-pendientes").textContent   = pendientes;
+  document.getElementById("dash-pct").textContent         = pct + "%";
+  document.getElementById("dash-barra").style.width       = pct + "%";
+
+  // Saldo pendiente desde columna W
+  const fmt = n => Number(n).toLocaleString("es-PY");
+  document.getElementById("dash-saldo").textContent      = "Gs. " + fmt(c.saldo_pendiente || 0);
+  document.getElementById("dash-monto-total").textContent = "Gs. " + fmt(c.monto_total || 0);
+
+  // Lista de cuotas
+  const lista = document.getElementById("lista-cuotas");
+  lista.innerHTML = c.pagos.map(p => {
+    const badgeClass = p.estado === "pagada"    ? "badge-pagada"
+                     : p.estado === "negociado" ? "badge-negociado"
+                     : "badge-pendiente";
+    const badgeTexto = p.estado === "pagada"    ? "✓ Paga"
+                     : p.estado === "negociado" ? "Negociado"
+                     : "Pendiente";
+    const montoHtml  = p.monto
+      ? `<div class="cuota-monto">Gs. ${Number(p.monto.replace(/\./g,"").replace(",",".")).toLocaleString("es-PY")}</div>`
+      : "";
+    return `
+      <div class="cuota-fila">
+        <div>
+          <div class="cuota-nombre">${p.nombre}</div>
+          ${montoHtml}
+        </div>
+        <span class="badge ${badgeClass}">${badgeTexto}</span>
+      </div>`;
+  }).join("");
+}
+
+function salir() {
+  clienteActual = null;
+  document.getElementById("input-usuario").value  = "";
+  document.getElementById("input-password").value = "";
+  document.getElementById("pantalla-dashboard").style.display = "none";
+  document.getElementById("pantalla-login").style.display     = "flex";
+}
+
+function scrollCuotas() {
+  document.getElementById("ancla-cuotas").scrollIntoView({ behavior: "smooth" });
+}
+
+function abrirWA() {
+  window.open(`https://wa.me/${WA_NUMERO}?text=${encodeURIComponent(WA_MENSAJE)}`, "_blank");
+}
+
+
+function abrirWATarjeta() {
+  const alumno  = clienteActual ? clienteActual.nombre_alumno : "";
+  const contratante = clienteActual ? clienteActual.nombre_contratante : "";
+  const mensaje = `Buenas Flash Vip, quiero realizar mi pago por Tarjeta de Crédito/QR del Alumno: ${alumno} (Contratante: ${contratante})`;
+  window.open(`https://wa.me/595973531720?text=${encodeURIComponent(mensaje)}`, "_blank");
+}
+
+function mostrarMetodos() {
+  document.getElementById("pantalla-dashboard").style.display = "none";
+  document.getElementById("pantalla-metodos").style.display   = "block";
+  window.scrollTo(0, 0);
+}
+
+function volverDashboard() {
+  document.getElementById("pantalla-metodos").style.display   = "none";
+  document.getElementById("pantalla-dashboard").style.display = "block";
+  window.scrollTo(0, 0);
+}
+
+function abrirWAComprobante() {
+  const nombre  = clienteActual ? clienteActual.nombre_contratante : "";
+  const alumno  = clienteActual ? clienteActual.nombre_alumno : "";
+  const mensaje = `Hola Flash Vip, les envío el comprobante de pago.%0AContratante: ${nombre}%0AAlumno/a: ${alumno}`;
+  window.open(`https://wa.me/595973531720?text=${mensaje}`, "_blank");
+}
+
+// Precargar datos al abrir la página
+cargarDatos();
+</script>
+
+<!-- ══════════════════════════════════════════════════════ MÉTODOS DE PAGO -->
+<div id="pantalla-metodos" style="display:none;">
+
+  <div class="topbar">
+    <div class="topbar-info">
+      <div class="topbar-nombre">Métodos de pago</div>
+      <div class="topbar-alumno">Flash Vip · Temporada 2027</div>
+    </div>
+    <button class="btn-salir" onclick="volverDashboard()">← Volver</button>
+  </div>
+
+  <div class="contenido">
+
+    <div class="seccion-titulo" style="margin-top:4px;">Elegí cómo pagar</div>
+
+    <!-- Transferencia bancaria -->
+    <div style="background:white; border-radius:12px; border:1px solid var(--borde); margin-bottom:14px; overflow:hidden;">
+      <div style="background:#1A3A5C; padding:12px 16px; display:flex; align-items:center; gap:10px;">
+        <span style="font-size:22px;">🏦</span>
+        <span style="color:white; font-weight:600; font-size:15px;">Transferencia bancaria</span>
+      </div>
+      <div style="padding:16px;">
+        <div style="display:flex; flex-direction:column; gap:10px;">
+          <div style="display:flex; justify-content:space-between; padding-bottom:8px; border-bottom:1px solid var(--borde);">
+            <span style="font-size:12px; color:var(--texto-suave);">Banco</span>
+            <span style="font-size:13px; font-weight:600;">Banco Continental</span>
+          </div>
+          <div style="display:flex; justify-content:space-between; padding-bottom:8px; border-bottom:1px solid var(--borde);">
+            <span style="font-size:12px; color:var(--texto-suave);">Titular</span>
+            <span style="font-size:13px; font-weight:600;">Nancy Fernanda Arteaga Vega</span>
+          </div>
+          <div style="display:flex; justify-content:space-between;">
+            <span style="font-size:12px; color:var(--texto-suave);">Alias / C.I.</span>
+            <span style="font-size:13px; font-weight:600;">3.981.745</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Giros Tigo -->
+    <div style="background:white; border-radius:12px; border:1px solid var(--borde); margin-bottom:14px; overflow:hidden;">
+      <div style="background:#00377A; padding:12px 16px; display:flex; align-items:center; gap:10px;">
+        <span style="font-size:22px;">📱</span>
+        <span style="color:white; font-weight:600; font-size:15px;">Giros Tigo Money</span>
+      </div>
+      <div style="padding:16px;">
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+          <span style="font-size:12px; color:var(--texto-suave);">Número de oficina</span>
+          <span style="font-size:15px; font-weight:700; color:#1A3A5C;">0973 531 720</span>
+        </div>
+        <div style="margin-top:10px; background:#F0F4F8; border-radius:8px; padding:10px 12px; font-size:12px; color:var(--texto-suave);">
+          Realizá el giro a ese número y luego enviá el comprobante por WhatsApp.
+        </div>
+      </div>
+    </div>
+
+    <!-- Tarjeta de crédito -->
+    <div style="background:white; border-radius:12px; border:1px solid var(--borde); margin-bottom:14px; overflow:hidden;">
+      <div style="background:#2E7D32; padding:12px 16px; display:flex; align-items:center; gap:10px;">
+        <span style="font-size:22px;">💳</span>
+        <span style="color:white; font-weight:600; font-size:15px;">Tarjeta de crédito / QR</span>
+      </div>
+      <div style="padding:16px;">
+        <div style="background:#F0F4F8; border-radius:8px; padding:10px 12px; font-size:13px; color:var(--texto-suave); line-height:1.6;">
+          Para pagar con tarjeta de crédito o QR, contactá a la oficina por WhatsApp y coordinamos el cobro.
+        </div>
+        <button class="btn-wa-dash" style="margin-top:12px; margin-bottom:0;" onclick="abrirWATarjeta()">
+          <span>💬</span> Solicitar cobro con Tarjeta / QR
+        </button>
+      </div>
+    </div>
+
+    <!-- Enviar comprobante -->
+    <div style="background:#FFF8E1; border:1px solid #FFE082; border-radius:12px; padding:14px 16px; margin-bottom:16px;">
+      <div style="font-size:13px; font-weight:600; color:#F57F17; margin-bottom:6px;">📎 Después de pagar</div>
+      <div style="font-size:13px; color:var(--texto-suave); line-height:1.6;">
+        Enviá el comprobante de pago al número de la oficina por WhatsApp para registrar tu pago.
+      </div>
+    </div>
+
+    <!-- Botón WhatsApp enviar comprobante -->
+    <button class="btn-wa-dash" onclick="abrirWAComprobante()">
+      <span>💬</span> Enviar comprobante por WhatsApp
+    </button>
+
+    <div style="height:24px;"></div>
+
+  </div>
+</div>
+
+</body>
+</html>

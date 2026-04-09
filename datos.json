@@ -1,0 +1,87 @@
+{
+  "ultima_actualizacion": "09/04/2026 08:15 hs",
+  "total_clientes": 1,
+  "clientes": [
+    {
+      "colegio": "CEC",
+      "nombre_alumno": "Luis Leoz",
+      "nombre_contratante": "Lala Lolita",
+      "cedula": "3997422",
+      "telefono": "973530252",
+      "email": "magno@liada.com",
+      "fecha_nacimiento": "13/julio/2009",
+      "fecha_firma": "8/4/2026, 10:46:29 p. m.",
+      "monto_total": "4980000",
+      "saldo_pendiente": "4252000",
+      "pagos": [
+        {
+          "nombre": "Seña",
+          "estado": "pagada",
+          "monto": "400000"
+        },
+        {
+          "nombre": "Refuerzo",
+          "estado": "pagada",
+          "monto": "328000"
+        },
+        {
+          "nombre": "Cuota 1 - Feb",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 2 - Mar",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 3 - Abr",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 4 - May",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 5 - Jun",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 6 - Jul",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 7 - Ago",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 8 - Sep",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 9 - Oct",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 10 - Nov",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 11 - Dic",
+          "estado": "pendiente",
+          "monto": ""
+        }
+      ],
+      "usuario": "3997422",
+      "password": "3997422"
+    }
+  ]
+}
