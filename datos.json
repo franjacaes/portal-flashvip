@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "09/04/2026 09:30 hs",
-  "total_clientes": 2,
+  "ultima_actualizacion": "09/04/2026 09:36 hs",
+  "total_clientes": 3,
   "clientes": [
     {
       "colegio": "CEC",
@@ -163,6 +163,87 @@
       ],
       "usuario": "1222333",
       "password": "1222333"
+    },
+    {
+      "colegio": "CEC",
+      "nombre_alumno": "Nancy anelim",
+      "nombre_contratante": "Nancy arteaga",
+      "cedula": "333",
+      "telefono": "983",
+      "email": "nancyarteaga.na@gmail.com",
+      "fecha_nacimiento": "28/febrero/2008",
+      "fecha_firma": "9/4/2026, 9:36:12 a. m.",
+      "monto_total": "0",
+      "saldo_pendiente": "0",
+      "pagos": [
+        {
+          "nombre": "Seña",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Refuerzo",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 1 - Feb",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 2 - Mar",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 3 - Abr",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 4 - May",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 5 - Jun",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 6 - Jul",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 7 - Ago",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 8 - Sep",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 9 - Oct",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 10 - Nov",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 11 - Dic",
+          "estado": "pendiente",
+          "monto": ""
+        }
+      ],
+      "usuario": "333",
+      "password": "333"
     }
   ]
 }
