@@ -254,13 +254,13 @@
       "email": "flashvipdavid@gmail.com",
       "fecha_nacimiento": "5/junio/2006",
       "fecha_firma": "9/4/2026, 9:49:56 a. m.",
-      "monto_total": "0",
-      "saldo_pendiente": "0",
+      "monto_total": "4980000",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
-          "estado": "pendiente",
-          "monto": ""
+          "estado": "pagada",
+          "monto": "400000"
         },
         {
           "nombre": "Refuerzo",
