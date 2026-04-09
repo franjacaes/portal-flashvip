@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "09/04/2026 09:28 hs",
+  "ultima_actualizacion": "09/04/2026 09:30 hs",
   "total_clientes": 2,
   "clientes": [
     {
@@ -12,7 +12,7 @@
       "fecha_nacimiento": "13/julio/2009",
       "fecha_firma": "8/4/2026, 10:46:29 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "3820000",
+      "saldo_pendiente": "3440000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -31,8 +31,8 @@
         },
         {
           "nombre": "Cuota 2 - Mar",
-          "estado": "pendiente",
-          "monto": ""
+          "estado": "pagada",
+          "monto": "380000"
         },
         {
           "nombre": "Cuota 3 - Abr",
