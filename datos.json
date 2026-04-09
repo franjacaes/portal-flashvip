@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "09/04/2026 09:36 hs",
+  "ultima_actualizacion": "09/04/2026 09:37 hs",
   "total_clientes": 3,
   "clientes": [
     {
@@ -173,13 +173,13 @@
       "email": "nancyarteaga.na@gmail.com",
       "fecha_nacimiento": "28/febrero/2008",
       "fecha_firma": "9/4/2026, 9:36:12 a. m.",
-      "monto_total": "0",
-      "saldo_pendiente": "0",
+      "monto_total": "4980000",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
-          "estado": "pendiente",
-          "monto": ""
+          "estado": "pagada",
+          "monto": "400000"
         },
         {
           "nombre": "Refuerzo",
