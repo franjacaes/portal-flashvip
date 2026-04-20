@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "20/04/2026 10:50 hs",
-  "total_clientes": 1,
+  "ultima_actualizacion": "20/04/2026 10:59 hs",
+  "total_clientes": 2,
   "clientes": [
     {
       "colegio": "CEC",
@@ -82,6 +82,87 @@
       ],
       "usuario": "2306300",
       "password": "2306300"
+    },
+    {
+      "colegio": "BAU",
+      "nombre_alumno": "Nicole Posteguillo Cabral",
+      "nombre_contratante": "Lucia Cabral",
+      "cedula": "4337507",
+      "telefono": "974837000",
+      "email": "mari_lo1986@hotmail.com",
+      "fecha_nacimiento": "23/Diciembre/2009",
+      "fecha_firma": "16/4/2026, 7:48:51 p. m.",
+      "monto_total": "4980000",
+      "saldo_pendiente": "4580000",
+      "pagos": [
+        {
+          "nombre": "Seña",
+          "estado": "pagada",
+          "monto": "400000"
+        },
+        {
+          "nombre": "Refuerzo",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 1 - Feb",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 2 - Mar",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 3 - Abr",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 4 - May",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 5 - Jun",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 6 - Jul",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 7 - Ago",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 8 - Sep",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 9 - Oct",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 10 - Nov",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 11 - Dic",
+          "estado": "pendiente",
+          "monto": ""
+        }
+      ],
+      "usuario": "4337507",
+      "password": "4337507"
     }
   ]
 }
