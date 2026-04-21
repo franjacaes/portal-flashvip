@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "21/04/2026 16:31 hs",
-  "total_clientes": 5,
+  "ultima_actualizacion": "21/04/2026 17:17 hs",
+  "total_clientes": 7,
   "clientes": [
     {
       "colegio": "CEC",
@@ -12,7 +12,169 @@
       "fecha_nacimiento": "10/septiembre/2010",
       "fecha_firma": "10/4/2026, 8:36:05 a. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "4980000",
+      "saldo_pendiente": "4580000",
+      "pagos": [
+        {
+          "nombre": "Seña",
+          "estado": "pagada",
+          "monto": "400000"
+        },
+        {
+          "nombre": "Refuerzo",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 1 - Feb",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 2 - Mar",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 3 - Abr",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 4 - May",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 5 - Jun",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 6 - Jul",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 7 - Ago",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 8 - Sep",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 9 - Oct",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 10 - Nov",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 11 - Dic",
+          "estado": "pendiente",
+          "monto": ""
+        }
+      ],
+      "usuario": "2306300",
+      "password": "2306300"
+    },
+    {
+      "colegio": "CEC",
+      "nombre_alumno": "Gustavo Giovanni Gernhoffer Riveros",
+      "nombre_contratante": "Alba Carolina Riveros Hermosa",
+      "cedula": "2484259",
+      "telefono": "973865956",
+      "email": "albiriveros@hotmail.com",
+      "fecha_nacimiento": "7/Septiembre/2009",
+      "fecha_firma": "21/4/2026, 4:37:20 p. m.",
+      "monto_total": "4980000",
+      "saldo_pendiente": "0",
+      "pagos": [
+        {
+          "nombre": "Seña",
+          "estado": "pagada",
+          "monto": "400000"
+        },
+        {
+          "nombre": "Refuerzo",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 1 - Feb",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 2 - Mar",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 3 - Abr",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 4 - May",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 5 - Jun",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 6 - Jul",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 7 - Ago",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 8 - Sep",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 9 - Oct",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 10 - Nov",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 11 - Dic",
+          "estado": "pendiente",
+          "monto": ""
+        }
+      ],
+      "usuario": "2484259",
+      "password": "2484259"
+    },
+    {
+      "colegio": "CEC",
+      "nombre_alumno": "Sophia Alejandra Garcete Urunaga",
+      "nombre_contratante": "Cinthia María Garcete Urunaga",
+      "cedula": "3225085",
+      "telefono": "971248112",
+      "email": "cinthiagarcete1000@gmail.com",
+      "fecha_nacimiento": "5/Octubre/2009",
+      "fecha_firma": "21/4/2026, 4:40:47 p. m.",
+      "monto_total": "4980000",
+      "saldo_pendiente": "0",
       "pagos": [
         {
           "nombre": "Seña",
@@ -80,8 +242,8 @@
           "monto": ""
         }
       ],
-      "usuario": "2306300",
-      "password": "2306300"
+      "usuario": "3225085",
+      "password": "3225085"
     },
     {
       "colegio": "BAU",
