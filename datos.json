@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "20/04/2026 11:57 hs",
-  "total_clientes": 2,
+  "ultima_actualizacion": "21/04/2026 08:42 hs",
+  "total_clientes": 3,
   "clientes": [
     {
       "colegio": "CEC",
@@ -163,6 +163,87 @@
       ],
       "usuario": "4337507",
       "password": "4337507"
+    },
+    {
+      "colegio": "BAU",
+      "nombre_alumno": "Luna Noemi Coronel Segovia",
+      "nombre_contratante": "Leticia Noemi Segovia de Coronel",
+      "cedula": "2905030",
+      "telefono": "973992225",
+      "email": "letisegcoronel777@gmail.com",
+      "fecha_nacimiento": "7/Mayo/2010",
+      "fecha_firma": "20/4/2026, 4:16:10 p. m.",
+      "monto_total": "4980000",
+      "saldo_pendiente": "0",
+      "pagos": [
+        {
+          "nombre": "Seña",
+          "estado": "pagada",
+          "monto": "400000"
+        },
+        {
+          "nombre": "Refuerzo",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 1 - Feb",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 2 - Mar",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 3 - Abr",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 4 - May",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 5 - Jun",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 6 - Jul",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 7 - Ago",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 8 - Sep",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 9 - Oct",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 10 - Nov",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 11 - Dic",
+          "estado": "pendiente",
+          "monto": ""
+        }
+      ],
+      "usuario": "2905030",
+      "password": "2905030"
     }
   ]
 }
