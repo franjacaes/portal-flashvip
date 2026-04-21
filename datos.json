@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "21/04/2026 11:21 hs",
-  "total_clientes": 4,
+  "ultima_actualizacion": "21/04/2026 13:34 hs",
+  "total_clientes": 5,
   "clientes": [
     {
       "colegio": "CEC",
@@ -325,6 +325,87 @@
       ],
       "usuario": "3211919",
       "password": "3211919"
+    },
+    {
+      "colegio": "SOL",
+      "nombre_alumno": "Tobias Valentin Aquino Torres",
+      "nombre_contratante": "Marcia Estela Torres De Aquino",
+      "cedula": "1129201",
+      "telefono": "983513878",
+      "email": "marcia.tobi.eze3@gmail.com",
+      "fecha_nacimiento": "2/Junio/2010",
+      "fecha_firma": "21/4/2026, 12:29:37 p. m.",
+      "monto_total": "0",
+      "saldo_pendiente": "0",
+      "pagos": [
+        {
+          "nombre": "Seña",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Refuerzo",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 1 - Feb",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 2 - Mar",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 3 - Abr",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 4 - May",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 5 - Jun",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 6 - Jul",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 7 - Ago",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 8 - Sep",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 9 - Oct",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 10 - Nov",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 11 - Dic",
+          "estado": "pendiente",
+          "monto": ""
+        }
+      ],
+      "usuario": "1129201",
+      "password": "1129201"
     }
   ]
 }
