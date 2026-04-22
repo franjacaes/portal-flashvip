@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "22/04/2026 12:43 hs",
-  "total_clientes": 8,
+  "ultima_actualizacion": "22/04/2026 13:10 hs",
+  "total_clientes": 9,
   "clientes": [
     {
       "colegio": "CEC",
@@ -259,8 +259,8 @@
       "pagos": [
         {
           "nombre": "Seña",
-          "estado": "pendiente",
-          "monto": ""
+          "estado": "pagada",
+          "monto": "400000"
         },
         {
           "nombre": "Refuerzo",
@@ -568,6 +568,87 @@
       ],
       "usuario": "3211919",
       "password": "3211919"
+    },
+    {
+      "colegio": "BAU",
+      "nombre_alumno": "Kevin Eduardo Torres Dávalos",
+      "nombre_contratante": "Liz Mabel Dávalos Guerrero",
+      "cedula": "4673925",
+      "telefono": "984499202",
+      "email": "lizdavalos1489@gmail.com",
+      "fecha_nacimiento": "2/Mayo/2010",
+      "fecha_firma": "22/4/2026, 1:06:45 p. m.",
+      "monto_total": "0",
+      "saldo_pendiente": "0",
+      "pagos": [
+        {
+          "nombre": "Seña",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Refuerzo",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 1 - Feb",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 2 - Mar",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 3 - Abr",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 4 - May",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 5 - Jun",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 6 - Jul",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 7 - Ago",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 8 - Sep",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 9 - Oct",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 10 - Nov",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 11 - Dic",
+          "estado": "pendiente",
+          "monto": ""
+        }
+      ],
+      "usuario": "4673925",
+      "password": "4673925"
     },
     {
       "colegio": "SOL",
