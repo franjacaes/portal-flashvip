@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "22/04/2026 11:52 hs",
-  "total_clientes": 7,
+  "ultima_actualizacion": "22/04/2026 12:43 hs",
+  "total_clientes": 8,
   "clientes": [
     {
       "colegio": "CEC",
@@ -244,6 +244,87 @@
       ],
       "usuario": "3225085",
       "password": "3225085"
+    },
+    {
+      "colegio": "CEC",
+      "nombre_alumno": "Mohammad houssam , babir",
+      "nombre_contratante": "Lara dbouk",
+      "cedula": "6652834",
+      "telefono": "973551636",
+      "email": "lara_dbouk_b@hotmail.com",
+      "fecha_nacimiento": "18/Mayo/2010",
+      "fecha_firma": "22/4/2026, 12:41:23 p. m.",
+      "monto_total": "0",
+      "saldo_pendiente": "0",
+      "pagos": [
+        {
+          "nombre": "Seña",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Refuerzo",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 1 - Feb",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 2 - Mar",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 3 - Abr",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 4 - May",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 5 - Jun",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 6 - Jul",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 7 - Ago",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 8 - Sep",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 9 - Oct",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 10 - Nov",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 11 - Dic",
+          "estado": "pendiente",
+          "monto": ""
+        }
+      ],
+      "usuario": "6652834",
+      "password": "6652834"
     },
     {
       "colegio": "BAU",
