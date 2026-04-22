@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "22/04/2026 14:07 hs",
+  "ultima_actualizacion": "22/04/2026 14:13 hs",
   "total_clientes": 13,
   "clientes": [
     {
@@ -254,7 +254,7 @@
       "email": "lara_dbouk_b@hotmail.com",
       "fecha_nacimiento": "18/Mayo/2010",
       "fecha_firma": "22/4/2026, 12:41:23 p. m.",
-      "monto_total": "0",
+      "monto_total": "4980000",
       "saldo_pendiente": "0",
       "pagos": [
         {
@@ -335,7 +335,7 @@
       "email": "angiedipardo@gmail.com",
       "fecha_nacimiento": "23/Junio/2009",
       "fecha_firma": "22/4/2026, 1:27:04 p. m.",
-      "monto_total": "0",
+      "monto_total": "4980000",
       "saldo_pendiente": "0",
       "pagos": [
         {
@@ -902,7 +902,7 @@
       "email": "eltutorycia19@gmail.com",
       "fecha_nacimiento": "12/Abril/2010",
       "fecha_firma": "22/4/2026, 1:47:28 p. m.",
-      "monto_total": "0",
+      "monto_total": "4980000",
       "saldo_pendiente": "0",
       "pagos": [
         {
