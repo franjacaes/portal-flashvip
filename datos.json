@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "22/04/2026 14:13 hs",
-  "total_clientes": 13,
+  "ultima_actualizacion": "23/04/2026 08:47 hs",
+  "total_clientes": 14,
   "clientes": [
     {
       "colegio": "CEC",
@@ -973,6 +973,87 @@
       ],
       "usuario": "3406012",
       "password": "3406012"
+    },
+    {
+      "colegio": "BAU",
+      "nombre_alumno": "Jennifer Anahi Díaz Domínguez",
+      "nombre_contratante": "Leticia Diaz",
+      "cedula": "4262115",
+      "telefono": "993275887",
+      "email": "lediz2020@gmail.com",
+      "fecha_nacimiento": "28/Octubre/2009",
+      "fecha_firma": "22/4/2026, 3:07:56 p. m.",
+      "monto_total": "4980000",
+      "saldo_pendiente": "0",
+      "pagos": [
+        {
+          "nombre": "Seña",
+          "estado": "pagada",
+          "monto": "400000"
+        },
+        {
+          "nombre": "Refuerzo",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 1 - Feb",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 2 - Mar",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 3 - Abr",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 4 - May",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 5 - Jun",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 6 - Jul",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 7 - Ago",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 8 - Sep",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 9 - Oct",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 10 - Nov",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 11 - Dic",
+          "estado": "pendiente",
+          "monto": ""
+        }
+      ],
+      "usuario": "4262115",
+      "password": "4262115"
     },
     {
       "colegio": "SOL",
