@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "23/04/2026 11:58 hs",
-  "total_clientes": 14,
+  "ultima_actualizacion": "23/04/2026 13:33 hs",
+  "total_clientes": 15,
   "clientes": [
     {
       "colegio": "CEC",
@@ -1054,6 +1054,87 @@
       ],
       "usuario": "4262115",
       "password": "4262115"
+    },
+    {
+      "colegio": "BAU",
+      "nombre_alumno": "Igor Benjamin Villar Colmán",
+      "nombre_contratante": "Ilse Rosalba Colmán Roa",
+      "cedula": "3328337",
+      "telefono": "983600163",
+      "email": "cr_ilse@hotmail.com",
+      "fecha_nacimiento": "24/Febrero/2010",
+      "fecha_firma": "23/4/2026, 12:50:41 p. m.",
+      "monto_total": "0",
+      "saldo_pendiente": "0",
+      "pagos": [
+        {
+          "nombre": "Seña",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Refuerzo",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 1 - Feb",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 2 - Mar",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 3 - Abr",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 4 - May",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 5 - Jun",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 6 - Jul",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 7 - Ago",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 8 - Sep",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 9 - Oct",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 10 - Nov",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 11 - Dic",
+          "estado": "pendiente",
+          "monto": ""
+        }
+      ],
+      "usuario": "3328337",
+      "password": "3328337"
     },
     {
       "colegio": "SOL",
