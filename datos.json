@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "23/04/2026 13:33 hs",
-  "total_clientes": 15,
+  "ultima_actualizacion": "23/04/2026 14:46 hs",
+  "total_clientes": 16,
   "clientes": [
     {
       "colegio": "CEC",
@@ -1064,6 +1064,87 @@
       "email": "cr_ilse@hotmail.com",
       "fecha_nacimiento": "24/Febrero/2010",
       "fecha_firma": "23/4/2026, 12:50:41 p. m.",
+      "monto_total": "4980000",
+      "saldo_pendiente": "0",
+      "pagos": [
+        {
+          "nombre": "Seña",
+          "estado": "pagada",
+          "monto": "400000"
+        },
+        {
+          "nombre": "Refuerzo",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 1 - Feb",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 2 - Mar",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 3 - Abr",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 4 - May",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 5 - Jun",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 6 - Jul",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 7 - Ago",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 8 - Sep",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 9 - Oct",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 10 - Nov",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 11 - Dic",
+          "estado": "pendiente",
+          "monto": ""
+        }
+      ],
+      "usuario": "3328337",
+      "password": "3328337"
+    },
+    {
+      "colegio": "BAU",
+      "nombre_alumno": "Mía Monserrath Mongelos Rios",
+      "nombre_contratante": "Ruth Vania Ríos Molinas",
+      "cedula": "4519573",
+      "telefono": "983510620",
+      "email": "ruthriosyflia@gmail.com",
+      "fecha_nacimiento": "14/Septiembre/2009",
+      "fecha_firma": "23/4/2026, 2:41:16 p. m.",
       "monto_total": "0",
       "saldo_pendiente": "0",
       "pagos": [
@@ -1133,8 +1214,8 @@
           "monto": ""
         }
       ],
-      "usuario": "3328337",
-      "password": "3328337"
+      "usuario": "4519573",
+      "password": "4519573"
     },
     {
       "colegio": "SOL",
