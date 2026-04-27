@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "27/04/2026 08:52 hs",
-  "total_clientes": 22,
+  "ultima_actualizacion": "27/04/2026 13:52 hs",
+  "total_clientes": 26,
   "clientes": [
     {
       "colegio": "CEC",
@@ -416,13 +416,13 @@
       "email": "paolo@cazzola.com.py",
       "fecha_nacimiento": "15/Junio/2009",
       "fecha_firma": "25/4/2026, 4:41:52 p. m.",
-      "monto_total": "0",
+      "monto_total": "4980000",
       "saldo_pendiente": "0",
       "pagos": [
         {
           "nombre": "Seña",
-          "estado": "pendiente",
-          "monto": ""
+          "estado": "pagada",
+          "monto": "400000"
         },
         {
           "nombre": "Refuerzo",
@@ -497,7 +497,7 @@
       "email": "lopezelizabeth421@gmail.com",
       "fecha_nacimiento": "13/Octubre/2009",
       "fecha_firma": "26/4/2026, 3:00:49 p. m.",
-      "monto_total": "0",
+      "monto_total": "4980000",
       "saldo_pendiente": "0",
       "pagos": [
         {
@@ -568,6 +568,249 @@
       ],
       "usuario": "2001273",
       "password": "2001273"
+    },
+    {
+      "colegio": "CEC",
+      "nombre_alumno": "Lucas Benjamin Ojeda Godoy",
+      "nombre_contratante": "Magali Godoy Pomata",
+      "cedula": "3531043",
+      "telefono": "973878730",
+      "email": "aldagoni7@gmail.com",
+      "fecha_nacimiento": "28/Mayo/2010",
+      "fecha_firma": "27/4/2026, 10:00:17 a. m.",
+      "monto_total": "4980000",
+      "saldo_pendiente": "0",
+      "pagos": [
+        {
+          "nombre": "Seña",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Refuerzo",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 1 - Feb",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 2 - Mar",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 3 - Abr",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 4 - May",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 5 - Jun",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 6 - Jul",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 7 - Ago",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 8 - Sep",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 9 - Oct",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 10 - Nov",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 11 - Dic",
+          "estado": "pendiente",
+          "monto": ""
+        }
+      ],
+      "usuario": "3531043",
+      "password": "3531043"
+    },
+    {
+      "colegio": "CEC",
+      "nombre_alumno": "Igor Sebastián Sanchez Castellano",
+      "nombre_contratante": "Sady Castellano",
+      "cedula": "3606280",
+      "telefono": "973559592",
+      "email": "drasadycastellano@gmail.com",
+      "fecha_nacimiento": "1/Julio/2010",
+      "fecha_firma": "27/4/2026, 10:51:37 a. m.",
+      "monto_total": "4980000",
+      "saldo_pendiente": "0",
+      "pagos": [
+        {
+          "nombre": "Seña",
+          "estado": "pagada",
+          "monto": "400000"
+        },
+        {
+          "nombre": "Refuerzo",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 1 - Feb",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 2 - Mar",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 3 - Abr",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 4 - May",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 5 - Jun",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 6 - Jul",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 7 - Ago",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 8 - Sep",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 9 - Oct",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 10 - Nov",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 11 - Dic",
+          "estado": "pendiente",
+          "monto": ""
+        }
+      ],
+      "usuario": "3606280",
+      "password": "3606280"
+    },
+    {
+      "colegio": "CEC",
+      "nombre_alumno": "Luis Carlos Barreto Giménez",
+      "nombre_contratante": "Marlene Gimenez Villalba",
+      "cedula": "2347792",
+      "telefono": "973187004",
+      "email": "malevillalba.mm@gmail.com",
+      "fecha_nacimiento": "27/Agosto/2009",
+      "fecha_firma": "27/4/2026, 1:09:00 p. m.",
+      "monto_total": "0",
+      "saldo_pendiente": "0",
+      "pagos": [
+        {
+          "nombre": "Seña",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Refuerzo",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 1 - Feb",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 2 - Mar",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 3 - Abr",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 4 - May",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 5 - Jun",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 6 - Jul",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 7 - Ago",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 8 - Sep",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 9 - Oct",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 10 - Nov",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 11 - Dic",
+          "estado": "pendiente",
+          "monto": ""
+        }
+      ],
+      "usuario": "2347792",
+      "password": "2347792"
     },
     {
       "colegio": "BAU",
@@ -1783,6 +2026,87 @@
       ],
       "usuario": "1129201",
       "password": "1129201"
+    },
+    {
+      "colegio": "SOL",
+      "nombre_alumno": "Elisa Gabriela Vera Martínez",
+      "nombre_contratante": "Norma Elisa Martínez",
+      "cedula": "2546625",
+      "telefono": "973569890",
+      "email": "normaelisagraciela@gmail.com",
+      "fecha_nacimiento": "15/Febrero/2010",
+      "fecha_firma": "27/4/2026, 10:10:33 a. m.",
+      "monto_total": "0",
+      "saldo_pendiente": "0",
+      "pagos": [
+        {
+          "nombre": "Seña",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Refuerzo",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 1 - Feb",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 2 - Mar",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 3 - Abr",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 4 - May",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 5 - Jun",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 6 - Jul",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 7 - Ago",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 8 - Sep",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 9 - Oct",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 10 - Nov",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 11 - Dic",
+          "estado": "pendiente",
+          "monto": ""
+        }
+      ],
+      "usuario": "2546625",
+      "password": "2546625"
     }
   ]
 }
