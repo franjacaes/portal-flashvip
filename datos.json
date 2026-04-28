@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "28/04/2026 11:10 hs",
-  "total_clientes": 35,
+  "ultima_actualizacion": "28/04/2026 16:47 hs",
+  "total_clientes": 36,
   "clientes": [
     {
       "colegio": "CEC",
@@ -2757,15 +2757,96 @@
       "password": "3200736"
     },
     {
-      "colegio": "SANTA_BTI_BTA",
-      "nombre_alumno": "Axel Damian Ortiz Báez",
-      "nombre_contratante": "Rosa Marilda Báez Rodas",
-      "cedula": "4577681",
-      "telefono": "983347673",
-      "email": "rossmarybaez@hotmail.com",
-      "fecha_nacimiento": "6/Julio/2008",
-      "fecha_firma": "28/4/2026, 10:17:17 a. m.",
-      "monto_total": "0",
+      "colegio": "SOL",
+      "nombre_alumno": "Giovanna Maria Victoria Vera Mencia",
+      "nombre_contratante": "Victor Vera",
+      "cedula": "2598074",
+      "telefono": "973855360",
+      "email": "vmvictormanuel1982@gmail.com",
+      "fecha_nacimiento": "5/Enero/2010",
+      "fecha_firma": "28/4/2026, 1:14:38 p. m.",
+      "monto_total": "4980000",
+      "saldo_pendiente": "0",
+      "pagos": [
+        {
+          "nombre": "Seña",
+          "estado": "pagada",
+          "monto": "400000"
+        },
+        {
+          "nombre": "Refuerzo",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 1 - Feb",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 2 - Mar",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 3 - Abr",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 4 - May",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 5 - Jun",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 6 - Jul",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 7 - Ago",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 8 - Sep",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 9 - Oct",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 10 - Nov",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 11 - Dic",
+          "estado": "pendiente",
+          "monto": ""
+        }
+      ],
+      "usuario": "2598074",
+      "password": "2598074"
+    },
+    {
+      "colegio": "SOL",
+      "nombre_alumno": "Mia Marlene Fatecha Portillo",
+      "nombre_contratante": "Julio Rafael Fatecha Alfonzo",
+      "cedula": "4234766",
+      "telefono": "973135140",
+      "email": "juliofatecha@gmail.com",
+      "fecha_nacimiento": "19/Mayo/2010",
+      "fecha_firma": "28/4/2026, 2:37:19 p. m.",
+      "monto_total": "4980000",
       "saldo_pendiente": "0",
       "pagos": [
         {
@@ -2834,8 +2915,8 @@
           "monto": ""
         }
       ],
-      "usuario": "4577681",
-      "password": "4577681"
+      "usuario": "4234766",
+      "password": "4234766"
     }
   ]
 }
