@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "28/04/2026 10:20 hs",
-  "total_clientes": 34,
+  "ultima_actualizacion": "28/04/2026 11:10 hs",
+  "total_clientes": 35,
   "clientes": [
     {
       "colegio": "CEC",
@@ -2036,7 +2036,7 @@
       "email": "normaelisagraciela@gmail.com",
       "fecha_nacimiento": "15/Febrero/2010",
       "fecha_firma": "27/4/2026, 10:10:33 a. m.",
-      "monto_total": "0",
+      "monto_total": "4980000",
       "saldo_pendiente": "0",
       "pagos": [
         {
@@ -2117,13 +2117,13 @@
       "email": "graciefa@hotmail.com",
       "fecha_nacimiento": "16/Julio/2009",
       "fecha_firma": "27/4/2026, 2:22:05 p. m.",
-      "monto_total": "0",
+      "monto_total": "4980000",
       "saldo_pendiente": "0",
       "pagos": [
         {
           "nombre": "Seña",
-          "estado": "pendiente",
-          "monto": ""
+          "estado": "pagada",
+          "monto": "400000"
         },
         {
           "nombre": "Refuerzo",
@@ -2198,13 +2198,13 @@
       "email": "graciefa@hotmail.com",
       "fecha_nacimiento": "16/Julio/2009",
       "fecha_firma": "27/4/2026, 2:25:09 p. m.",
-      "monto_total": "0",
+      "monto_total": "4980000",
       "saldo_pendiente": "0",
       "pagos": [
         {
           "nombre": "Seña",
-          "estado": "pendiente",
-          "monto": ""
+          "estado": "pagada",
+          "monto": "400000"
         },
         {
           "nombre": "Refuerzo",
@@ -2279,7 +2279,7 @@
       "email": "chio-mendoza@hotmail.com",
       "fecha_nacimiento": "11/Enero/2010",
       "fecha_firma": "27/4/2026, 4:45:10 p. m.",
-      "monto_total": "0",
+      "monto_total": "4980000",
       "saldo_pendiente": "0",
       "pagos": [
         {
@@ -2360,7 +2360,7 @@
       "email": "myjquinta@gmail.com",
       "fecha_nacimiento": "19/Enero/2010",
       "fecha_firma": "27/4/2026, 5:33:44 p. m.",
-      "monto_total": "0",
+      "monto_total": "4980000",
       "saldo_pendiente": "0",
       "pagos": [
         {
@@ -2441,7 +2441,7 @@
       "email": "jacquelinekeb@hotmail.com",
       "fecha_nacimiento": "12/Febrero/2010",
       "fecha_firma": "27/4/2026, 9:06:38 p. m.",
-      "monto_total": "0",
+      "monto_total": "4980000",
       "saldo_pendiente": "0",
       "pagos": [
         {
@@ -2522,7 +2522,7 @@
       "email": "avieira@sis.com.py",
       "fecha_nacimiento": "18/Junio/2010",
       "fecha_firma": "28/4/2026, 7:13:11 a. m.",
-      "monto_total": "0",
+      "monto_total": "4980000",
       "saldo_pendiente": "0",
       "pagos": [
         {
@@ -2603,7 +2603,7 @@
       "email": "avieira@sis.com.py",
       "fecha_nacimiento": "18/Junio/2010",
       "fecha_firma": "28/4/2026, 7:16:01 a. m.",
-      "monto_total": "0",
+      "monto_total": "4980000",
       "saldo_pendiente": "0",
       "pagos": [
         {
@@ -2684,6 +2684,87 @@
       "email": "jumaveiro@gmail.com",
       "fecha_nacimiento": "22/Septiembre/2009",
       "fecha_firma": "28/4/2026, 9:24:57 a. m.",
+      "monto_total": "4980000",
+      "saldo_pendiente": "0",
+      "pagos": [
+        {
+          "nombre": "Seña",
+          "estado": "pagada",
+          "monto": "400000"
+        },
+        {
+          "nombre": "Refuerzo",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 1 - Feb",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 2 - Mar",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 3 - Abr",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 4 - May",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 5 - Jun",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 6 - Jul",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 7 - Ago",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 8 - Sep",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 9 - Oct",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 10 - Nov",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 11 - Dic",
+          "estado": "pendiente",
+          "monto": ""
+        }
+      ],
+      "usuario": "3200736",
+      "password": "3200736"
+    },
+    {
+      "colegio": "SANTA_BTI_BTA",
+      "nombre_alumno": "Axel Damian Ortiz Báez",
+      "nombre_contratante": "Rosa Marilda Báez Rodas",
+      "cedula": "4577681",
+      "telefono": "983347673",
+      "email": "rossmarybaez@hotmail.com",
+      "fecha_nacimiento": "6/Julio/2008",
+      "fecha_firma": "28/4/2026, 10:17:17 a. m.",
       "monto_total": "0",
       "saldo_pendiente": "0",
       "pagos": [
@@ -2753,8 +2834,8 @@
           "monto": ""
         }
       ],
-      "usuario": "3200736",
-      "password": "3200736"
+      "usuario": "4577681",
+      "password": "4577681"
     }
   ]
 }
