@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "01/05/2026 09:06 hs",
-  "total_clientes": 39,
+  "ultima_actualizacion": "04/05/2026 08:59 hs",
+  "total_clientes": 40,
   "clientes": [
     {
       "colegio": "CEC",
@@ -93,7 +93,7 @@
       "fecha_nacimiento": "7/Septiembre/2009",
       "fecha_firma": "21/4/2026, 4:37:20 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -174,7 +174,7 @@
       "fecha_nacimiento": "5/Octubre/2009",
       "fecha_firma": "21/4/2026, 4:40:47 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4980000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -255,7 +255,7 @@
       "fecha_nacimiento": "18/Mayo/2010",
       "fecha_firma": "22/4/2026, 12:41:23 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -336,7 +336,7 @@
       "fecha_nacimiento": "23/Junio/2009",
       "fecha_firma": "22/4/2026, 1:27:04 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -417,7 +417,7 @@
       "fecha_nacimiento": "15/Junio/2009",
       "fecha_firma": "25/4/2026, 4:41:52 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -498,7 +498,7 @@
       "fecha_nacimiento": "13/Octubre/2009",
       "fecha_firma": "26/4/2026, 3:00:49 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4980000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -579,7 +579,7 @@
       "fecha_nacimiento": "28/Mayo/2010",
       "fecha_firma": "27/4/2026, 10:00:17 a. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4980000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -660,7 +660,7 @@
       "fecha_nacimiento": "1/Julio/2010",
       "fecha_firma": "27/4/2026, 10:51:37 a. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -741,7 +741,7 @@
       "fecha_nacimiento": "27/Agosto/2009",
       "fecha_firma": "27/4/2026, 1:09:00 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -903,7 +903,7 @@
       "fecha_nacimiento": "7/Mayo/2010",
       "fecha_firma": "20/4/2026, 4:16:10 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -984,7 +984,7 @@
       "fecha_nacimiento": "26/Septiembre/2009",
       "fecha_firma": "21/4/2026, 8:52:53 a. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4980000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -1065,7 +1065,7 @@
       "fecha_nacimiento": "2/Mayo/2010",
       "fecha_firma": "22/4/2026, 1:06:45 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4980000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -1146,7 +1146,7 @@
       "fecha_nacimiento": "26/Enero/2010",
       "fecha_firma": "22/4/2026, 1:23:57 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -1227,7 +1227,7 @@
       "fecha_nacimiento": "27/Noviembre/2009",
       "fecha_firma": "22/4/2026, 1:37:12 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4980000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -1308,7 +1308,7 @@
       "fecha_nacimiento": "12/Abril/2010",
       "fecha_firma": "22/4/2026, 1:47:28 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4980000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -1389,7 +1389,7 @@
       "fecha_nacimiento": "28/Octubre/2009",
       "fecha_firma": "22/4/2026, 3:07:56 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -1470,7 +1470,7 @@
       "fecha_nacimiento": "24/Febrero/2010",
       "fecha_firma": "23/4/2026, 12:50:41 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -1551,7 +1551,7 @@
       "fecha_nacimiento": "14/Septiembre/2009",
       "fecha_firma": "23/4/2026, 2:41:16 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -1632,7 +1632,7 @@
       "fecha_nacimiento": "22/Agosto/2009",
       "fecha_firma": "23/4/2026, 4:10:37 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -1713,7 +1713,7 @@
       "fecha_nacimiento": "5/Abril/2010",
       "fecha_firma": "24/4/2026, 12:21:19 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4980000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -1794,7 +1794,7 @@
       "fecha_nacimiento": "28/Septiembre/2009",
       "fecha_firma": "24/4/2026, 2:19:41 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4980000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -1875,7 +1875,7 @@
       "fecha_nacimiento": "15/Diciembre/2009",
       "fecha_firma": "24/4/2026, 6:25:52 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -1947,6 +1947,87 @@
       "password": "3606238"
     },
     {
+      "colegio": "BAU",
+      "nombre_alumno": "Alissa Arianna Ayala Cristaldo",
+      "nombre_contratante": "Shirley Cristaldo",
+      "cedula": "2443286",
+      "telefono": "971161553",
+      "email": "shirley.cristaldo@gmail.com",
+      "fecha_nacimiento": "20/Enero/2010",
+      "fecha_firma": "2/5/2026, 9:23:04 a. m.",
+      "monto_total": "0",
+      "saldo_pendiente": "0",
+      "pagos": [
+        {
+          "nombre": "Seña",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Refuerzo",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 1 - Feb",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 2 - Mar",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 3 - Abr",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 4 - May",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 5 - Jun",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 6 - Jul",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 7 - Ago",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 8 - Sep",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 9 - Oct",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 10 - Nov",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 11 - Dic",
+          "estado": "pendiente",
+          "monto": ""
+        }
+      ],
+      "usuario": "2443286",
+      "password": "2443286"
+    },
+    {
       "colegio": "SOL",
       "nombre_alumno": "Tobias Valentin Aquino Torres",
       "nombre_contratante": "Marcia Estela Torres De Aquino",
@@ -1956,7 +2037,7 @@
       "fecha_nacimiento": "2/Junio/2010",
       "fecha_firma": "21/4/2026, 12:29:37 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -2037,7 +2118,7 @@
       "fecha_nacimiento": "15/Febrero/2010",
       "fecha_firma": "27/4/2026, 10:10:33 a. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4980000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -2118,7 +2199,7 @@
       "fecha_nacimiento": "16/Julio/2009",
       "fecha_firma": "27/4/2026, 2:22:05 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -2199,7 +2280,7 @@
       "fecha_nacimiento": "16/Julio/2009",
       "fecha_firma": "27/4/2026, 2:25:09 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -2280,7 +2361,7 @@
       "fecha_nacimiento": "11/Enero/2010",
       "fecha_firma": "27/4/2026, 4:45:10 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -2361,7 +2442,7 @@
       "fecha_nacimiento": "19/Enero/2010",
       "fecha_firma": "27/4/2026, 5:33:44 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -2442,7 +2523,7 @@
       "fecha_nacimiento": "12/Febrero/2010",
       "fecha_firma": "27/4/2026, 9:06:38 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4980000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -2523,7 +2604,7 @@
       "fecha_nacimiento": "18/Junio/2010",
       "fecha_firma": "28/4/2026, 7:13:11 a. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -2604,7 +2685,7 @@
       "fecha_nacimiento": "18/Junio/2010",
       "fecha_firma": "28/4/2026, 7:16:01 a. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -2685,7 +2766,7 @@
       "fecha_nacimiento": "22/Septiembre/2009",
       "fecha_firma": "28/4/2026, 9:24:57 a. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -2766,7 +2847,7 @@
       "fecha_nacimiento": "5/Enero/2010",
       "fecha_firma": "28/4/2026, 1:14:38 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -2847,7 +2928,7 @@
       "fecha_nacimiento": "19/Mayo/2010",
       "fecha_firma": "28/4/2026, 2:37:19 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -2928,7 +3009,7 @@
       "fecha_nacimiento": "1/Junio/2009",
       "fecha_firma": "28/4/2026, 5:09:02 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -3009,7 +3090,7 @@
       "fecha_nacimiento": "17/Junio/2010",
       "fecha_firma": "28/4/2026, 5:31:30 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4980000",
       "pagos": [
         {
           "nombre": "Seña",
