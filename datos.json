@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "05/05/2026 09:03 hs",
+  "ultima_actualizacion": "05/05/2026 16:48 hs",
   "total_clientes": 41,
   "clientes": [
     {
@@ -174,12 +174,12 @@
       "fecha_nacimiento": "5/Octubre/2009",
       "fecha_firma": "21/4/2026, 4:40:47 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "4980000",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
-          "estado": "pendiente",
-          "monto": ""
+          "estado": "pagada",
+          "monto": "400000"
         },
         {
           "nombre": "Refuerzo",
@@ -498,12 +498,12 @@
       "fecha_nacimiento": "13/Octubre/2009",
       "fecha_firma": "26/4/2026, 3:00:49 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "4980000",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
-          "estado": "pendiente",
-          "monto": ""
+          "estado": "pagada",
+          "monto": "400000"
         },
         {
           "nombre": "Refuerzo",
@@ -821,13 +821,13 @@
       "email": "estelita_gon@hotmail.com",
       "fecha_nacimiento": "3/Junio/2010",
       "fecha_firma": "4/5/2026, 4:41:47 p. m.",
-      "monto_total": "0",
+      "monto_total": "4980000",
       "saldo_pendiente": "0",
       "pagos": [
         {
           "nombre": "Seña",
-          "estado": "pendiente",
-          "monto": ""
+          "estado": "pagada",
+          "monto": "400000"
         },
         {
           "nombre": "Refuerzo",
@@ -2036,13 +2036,13 @@
       "email": "shirley.cristaldo@gmail.com",
       "fecha_nacimiento": "20/Enero/2010",
       "fecha_firma": "2/5/2026, 9:23:04 a. m.",
-      "monto_total": "0",
-      "saldo_pendiente": "0",
+      "monto_total": "4980000",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
-          "estado": "pendiente",
-          "monto": ""
+          "estado": "pagada",
+          "monto": "400000"
         },
         {
           "nombre": "Refuerzo",
