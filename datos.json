@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "05/05/2026 17:19 hs",
+  "ultima_actualizacion": "06/05/2026 15:06 hs",
   "total_clientes": 41,
   "clientes": [
     {
@@ -579,12 +579,12 @@
       "fecha_nacimiento": "28/Mayo/2010",
       "fecha_firma": "27/4/2026, 10:00:17 a. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "4980000",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
-          "estado": "pendiente",
-          "monto": ""
+          "estado": "pagada",
+          "monto": "400000"
         },
         {
           "nombre": "Refuerzo",
