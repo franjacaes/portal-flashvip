@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "12/05/2026 08:52 hs",
+  "ultima_actualizacion": "13/05/2026 12:39 hs",
   "total_clientes": 56,
   "clientes": [
     {
@@ -1150,8 +1150,8 @@
       "pagos": [
         {
           "nombre": "Seña",
-          "estado": "pendiente",
-          "monto": ""
+          "estado": "pagada",
+          "monto": "400000"
         },
         {
           "nombre": "Refuerzo",
