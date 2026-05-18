@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "13/05/2026 12:39 hs",
-  "total_clientes": 56,
+  "ultima_actualizacion": "18/05/2026 15:07 hs",
+  "total_clientes": 57,
   "clientes": [
     {
       "colegio": "CEC",
@@ -2107,6 +2107,87 @@
       ],
       "usuario": "2953666",
       "password": "2953666"
+    },
+    {
+      "colegio": "ICI_A",
+      "nombre_alumno": "Mauricio Ramírez Casati",
+      "nombre_contratante": "Gizella Casati Allegretti",
+      "cedula": "985600",
+      "telefono": "971250098",
+      "email": "gizicasati@gmail.com",
+      "fecha_nacimiento": "22/Mayo/2009",
+      "fecha_firma": "18/5/2026, 12:52:29 p. m.",
+      "monto_total": "0",
+      "saldo_pendiente": "0",
+      "pagos": [
+        {
+          "nombre": "Seña",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Refuerzo",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 1 - Feb",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 2 - Mar",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 3 - Abr",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 4 - May",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 5 - Jun",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 6 - Jul",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 7 - Ago",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 8 - Sep",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 9 - Oct",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 10 - Nov",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 11 - Dic",
+          "estado": "pendiente",
+          "monto": ""
+        }
+      ],
+      "usuario": "985600",
+      "password": "985600"
     },
     {
       "colegio": "BAU",
