@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "19/05/2026 08:47 hs",
-  "total_clientes": 57,
+  "ultima_actualizacion": "19/05/2026 16:48 hs",
+  "total_clientes": 60,
   "clientes": [
     {
       "colegio": "CEC",
@@ -814,15 +814,15 @@
     },
     {
       "colegio": "CEC",
-      "nombre_alumno": "IAGO EZEQUIEL VALLEJOS PAREDES",
-      "nombre_contratante": "CYNTHIA ELIZABETH PAREDES DE VALLEJOS",
+      "nombre_alumno": "Iago Ezequiel Vallejos Paredes",
+      "nombre_contratante": "Cynthia Elizabeth Paredes de Vallejos",
       "cedula": "1375678",
       "telefono": "983251789",
       "email": "cepdev1978@gmail.com",
       "fecha_nacimiento": "10/Octubre/2009",
       "fecha_firma": "8/5/2026, 2:59:51 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -894,6 +894,168 @@
       "password": "1375678"
     },
     {
+      "colegio": "CEC",
+      "nombre_alumno": "Santiago Amin Irala González",
+      "nombre_contratante": "Hilda González",
+      "cedula": "2997912",
+      "telefono": "982986467",
+      "email": "hildagonzalez015@gmail.com",
+      "fecha_nacimiento": "13/Mayo/2009",
+      "fecha_firma": "19/5/2026, 3:05:38 p. m.",
+      "monto_total": "0",
+      "saldo_pendiente": "0",
+      "pagos": [
+        {
+          "nombre": "Seña",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Refuerzo",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 1 - Feb",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 2 - Mar",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 3 - Abr",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 4 - May",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 5 - Jun",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 6 - Jul",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 7 - Ago",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 8 - Sep",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 9 - Oct",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 10 - Nov",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 11 - Dic",
+          "estado": "pendiente",
+          "monto": ""
+        }
+      ],
+      "usuario": "2997912",
+      "password": "2997912"
+    },
+    {
+      "colegio": "CEC",
+      "nombre_alumno": "Ali Mokaled",
+      "nombre_contratante": "Lora Fakhro",
+      "cedula": "7535375",
+      "telefono": "975602602",
+      "email": "fakhrolora@gmail.com",
+      "fecha_nacimiento": "27/Abril/2010",
+      "fecha_firma": "19/5/2026, 4:45:01 p. m.",
+      "monto_total": "0",
+      "saldo_pendiente": "0",
+      "pagos": [
+        {
+          "nombre": "Seña",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Refuerzo",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 1 - Feb",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 2 - Mar",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 3 - Abr",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 4 - May",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 5 - Jun",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 6 - Jul",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 7 - Ago",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 8 - Sep",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 9 - Oct",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 10 - Nov",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 11 - Dic",
+          "estado": "pendiente",
+          "monto": ""
+        }
+      ],
+      "usuario": "7535375",
+      "password": "7535375"
+    },
+    {
       "colegio": "ICI_A",
       "nombre_alumno": "Sebastián Palacios",
       "nombre_contratante": "Estela González",
@@ -903,7 +1065,7 @@
       "fecha_nacimiento": "3/Junio/2010",
       "fecha_firma": "4/5/2026, 4:41:47 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -984,7 +1146,7 @@
       "fecha_nacimiento": "19/Enero/2010",
       "fecha_firma": "7/5/2026, 12:08:13 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -1065,7 +1227,7 @@
       "fecha_nacimiento": "18/Febrero/2010",
       "fecha_firma": "7/5/2026, 12:26:02 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -1146,7 +1308,7 @@
       "fecha_nacimiento": "21/Diciembre/2009",
       "fecha_firma": "7/5/2026, 12:33:56 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -1227,7 +1389,7 @@
       "fecha_nacimiento": "19/Septiembre/2009",
       "fecha_firma": "7/5/2026, 12:12:50",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -1308,7 +1470,7 @@
       "fecha_nacimiento": "15/Abril/2010",
       "fecha_firma": "8/5/2026, 6:58:07 a. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -1389,7 +1551,7 @@
       "fecha_nacimiento": "4/Septiembre/2009",
       "fecha_firma": "8/5/2026, 8:20:24 a. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -1470,7 +1632,7 @@
       "fecha_nacimiento": "28/Octubre/2009",
       "fecha_firma": "8/5/2026, 11:39:24 a. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -1551,7 +1713,7 @@
       "fecha_nacimiento": "29/Julio/2009",
       "fecha_firma": "8/5/2026, 11:43:07 a. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -1632,7 +1794,7 @@
       "fecha_nacimiento": "8/Mayo/2010",
       "fecha_firma": "8/5/2026, 3:24:13 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4980000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -1713,7 +1875,7 @@
       "fecha_nacimiento": "22/Mayo/2010",
       "fecha_firma": "8/5/2026, 5:03:38 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -1794,7 +1956,7 @@
       "fecha_nacimiento": "20/Julio/2009",
       "fecha_firma": "8/5/2026, 5:12:48 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -1875,7 +2037,7 @@
       "fecha_nacimiento": "22/Enero/2010",
       "fecha_firma": "8/5/2026, 6:43:54 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -1956,7 +2118,7 @@
       "fecha_nacimiento": "13/Agosto/2009",
       "fecha_firma": "10/5/2026, 9:44:17 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -2036,8 +2198,8 @@
       "email": "albertof27@gmail.com",
       "fecha_nacimiento": "13/Agosto/2009",
       "fecha_firma": "11/5/2026, 7:12:16 p. m.",
-      "monto_total": "0",
-      "saldo_pendiente": "0",
+      "monto_total": "4980000",
+      "saldo_pendiente": "4980000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -2117,8 +2279,8 @@
       "email": "gizicasati@gmail.com",
       "fecha_nacimiento": "22/Mayo/2009",
       "fecha_firma": "18/5/2026, 12:52:29 p. m.",
-      "monto_total": "0",
-      "saldo_pendiente": "0",
+      "monto_total": "4980000",
+      "saldo_pendiente": "4980000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -2442,12 +2604,12 @@
       "fecha_nacimiento": "2/Mayo/2010",
       "fecha_firma": "22/4/2026, 1:06:45 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "4980000",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
-          "estado": "pendiente",
-          "monto": ""
+          "estado": "pagada",
+          "monto": "400000"
         },
         {
           "nombre": "Refuerzo",
@@ -3403,6 +3565,87 @@
       ],
       "usuario": "2443286",
       "password": "2443286"
+    },
+    {
+      "colegio": "BAU",
+      "nombre_alumno": "Rebeca Araújo Pereira",
+      "nombre_contratante": "Nádia Naiara Veras Araújo",
+      "cedula": "8781626",
+      "telefono": "595984240009",
+      "email": "nadianaiara82@gmail.com",
+      "fecha_nacimiento": "23/Abril/2009",
+      "fecha_firma": "19/5/2026, 9:25:50 a. m.",
+      "monto_total": "4980000",
+      "saldo_pendiente": "4580000",
+      "pagos": [
+        {
+          "nombre": "Seña",
+          "estado": "pagada",
+          "monto": "400000"
+        },
+        {
+          "nombre": "Refuerzo",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 1 - Feb",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 2 - Mar",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 3 - Abr",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 4 - May",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 5 - Jun",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 6 - Jul",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 7 - Ago",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 8 - Sep",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 9 - Oct",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 10 - Nov",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 11 - Dic",
+          "estado": "pendiente",
+          "monto": ""
+        }
+      ],
+      "usuario": "8781626",
+      "password": "8781626"
     },
     {
       "colegio": "SOL",
@@ -4547,8 +4790,8 @@
       "email": "monicabasaldua73@gmail.com",
       "fecha_nacimiento": "17/Junio/2010",
       "fecha_firma": "28/4/2026, 10:06:25 p. m.",
-      "monto_total": "0",
-      "saldo_pendiente": "0",
+      "monto_total": "4980000",
+      "saldo_pendiente": "4980000",
       "pagos": [
         {
           "nombre": "Seña",
