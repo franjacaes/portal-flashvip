@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "19/05/2026 16:48 hs",
-  "total_clientes": 60,
+  "ultima_actualizacion": "21/05/2026 08:42 hs",
+  "total_clientes": 62,
   "clientes": [
     {
       "colegio": "CEC",
@@ -902,13 +902,13 @@
       "email": "hildagonzalez015@gmail.com",
       "fecha_nacimiento": "13/Mayo/2009",
       "fecha_firma": "19/5/2026, 3:05:38 p. m.",
-      "monto_total": "0",
+      "monto_total": "4980000",
       "saldo_pendiente": "0",
       "pagos": [
         {
           "nombre": "Seña",
-          "estado": "pendiente",
-          "monto": ""
+          "estado": "pagada",
+          "monto": "400000"
         },
         {
           "nombre": "Refuerzo",
@@ -983,13 +983,13 @@
       "email": "fakhrolora@gmail.com",
       "fecha_nacimiento": "27/Abril/2010",
       "fecha_firma": "19/5/2026, 4:45:01 p. m.",
-      "monto_total": "0",
+      "monto_total": "4980000",
       "saldo_pendiente": "0",
       "pagos": [
         {
           "nombre": "Seña",
-          "estado": "pendiente",
-          "monto": ""
+          "estado": "pagada",
+          "monto": "400000"
         },
         {
           "nombre": "Refuerzo",
@@ -1054,6 +1054,87 @@
       ],
       "usuario": "7535375",
       "password": "7535375"
+    },
+    {
+      "colegio": "CEC",
+      "nombre_alumno": "María Del Mar Aculab",
+      "nombre_contratante": "silvia Margarita Daney",
+      "cedula": "1425008",
+      "telefono": "983664360",
+      "email": "new_sport@hotmail.es",
+      "fecha_nacimiento": "1/Diciembre/2009",
+      "fecha_firma": "19/5/2026, 7:02:07 p. m.",
+      "monto_total": "4980000",
+      "saldo_pendiente": "0",
+      "pagos": [
+        {
+          "nombre": "Seña",
+          "estado": "pagada",
+          "monto": "400000"
+        },
+        {
+          "nombre": "Refuerzo",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 1 - Feb",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 2 - Mar",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 3 - Abr",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 4 - May",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 5 - Jun",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 6 - Jul",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 7 - Ago",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 8 - Sep",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 9 - Oct",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 10 - Nov",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 11 - Dic",
+          "estado": "pendiente",
+          "monto": ""
+        }
+      ],
+      "usuario": "1425008",
+      "password": "1425008"
     },
     {
       "colegio": "ICI_A",
@@ -2110,87 +2191,6 @@
     },
     {
       "colegio": "ICI_A",
-      "nombre_alumno": "Mateo Fabián Feltes Esteche",
-      "nombre_contratante": "Carolina Beatriz Feltes Esteche",
-      "cedula": "2953666",
-      "telefono": "993287894",
-      "email": "albertof27@gmail.com",
-      "fecha_nacimiento": "13/Agosto/2009",
-      "fecha_firma": "10/5/2026, 9:44:17 p. m.",
-      "monto_total": "4980000",
-      "saldo_pendiente": "4580000",
-      "pagos": [
-        {
-          "nombre": "Seña",
-          "estado": "pagada",
-          "monto": "400000"
-        },
-        {
-          "nombre": "Refuerzo",
-          "estado": "pendiente",
-          "monto": ""
-        },
-        {
-          "nombre": "Cuota 1 - Feb",
-          "estado": "pendiente",
-          "monto": ""
-        },
-        {
-          "nombre": "Cuota 2 - Mar",
-          "estado": "pendiente",
-          "monto": ""
-        },
-        {
-          "nombre": "Cuota 3 - Abr",
-          "estado": "pendiente",
-          "monto": ""
-        },
-        {
-          "nombre": "Cuota 4 - May",
-          "estado": "pendiente",
-          "monto": ""
-        },
-        {
-          "nombre": "Cuota 5 - Jun",
-          "estado": "pendiente",
-          "monto": ""
-        },
-        {
-          "nombre": "Cuota 6 - Jul",
-          "estado": "pendiente",
-          "monto": ""
-        },
-        {
-          "nombre": "Cuota 7 - Ago",
-          "estado": "pendiente",
-          "monto": ""
-        },
-        {
-          "nombre": "Cuota 8 - Sep",
-          "estado": "pendiente",
-          "monto": ""
-        },
-        {
-          "nombre": "Cuota 9 - Oct",
-          "estado": "pendiente",
-          "monto": ""
-        },
-        {
-          "nombre": "Cuota 10 - Nov",
-          "estado": "pendiente",
-          "monto": ""
-        },
-        {
-          "nombre": "Cuota 11 - Dic",
-          "estado": "pendiente",
-          "monto": ""
-        }
-      ],
-      "usuario": "2953666",
-      "password": "2953666"
-    },
-    {
-      "colegio": "ICI_A",
       "nombre_alumno": "Mateo Fabian Romero Feltes",
       "nombre_contratante": "Carolina Beatriz Feltes Esteche",
       "cedula": "2953666",
@@ -2199,12 +2199,12 @@
       "fecha_nacimiento": "13/Agosto/2009",
       "fecha_firma": "11/5/2026, 7:12:16 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "4980000",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
-          "estado": "pendiente",
-          "monto": ""
+          "estado": "pagada",
+          "monto": "400000"
         },
         {
           "nombre": "Refuerzo",
@@ -2280,7 +2280,88 @@
       "fecha_nacimiento": "22/Mayo/2009",
       "fecha_firma": "18/5/2026, 12:52:29 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "4980000",
+      "saldo_pendiente": "4580000",
+      "pagos": [
+        {
+          "nombre": "Seña",
+          "estado": "pagada",
+          "monto": "400000"
+        },
+        {
+          "nombre": "Refuerzo",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 1 - Feb",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 2 - Mar",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 3 - Abr",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 4 - May",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 5 - Jun",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 6 - Jul",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 7 - Ago",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 8 - Sep",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 9 - Oct",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 10 - Nov",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 11 - Dic",
+          "estado": "pendiente",
+          "monto": ""
+        }
+      ],
+      "usuario": "985600",
+      "password": "985600"
+    },
+    {
+      "colegio": "ICI_A",
+      "nombre_alumno": "Oscar Santiago Santacruz Encina",
+      "nombre_contratante": "Mirtha de Santacruz",
+      "cedula": "1043876",
+      "telefono": "9736874545",
+      "email": "mirthasilverosantacruz@gmail.com",
+      "fecha_nacimiento": "6/Noviembre/2009",
+      "fecha_firma": "21/5/2026, 6:19:32 a. m.",
+      "monto_total": "0",
+      "saldo_pendiente": "0",
       "pagos": [
         {
           "nombre": "Seña",
@@ -2348,8 +2429,8 @@
           "monto": ""
         }
       ],
-      "usuario": "985600",
-      "password": "985600"
+      "usuario": "1043876",
+      "password": "1043876"
     },
     {
       "colegio": "BAU",
@@ -3252,12 +3333,12 @@
       "fecha_nacimiento": "5/Abril/2010",
       "fecha_firma": "24/4/2026, 12:21:19 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "4980000",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
-          "estado": "pendiente",
-          "monto": ""
+          "estado": "pagada",
+          "monto": "400000"
         },
         {
           "nombre": "Refuerzo",
@@ -3648,6 +3729,87 @@
       "password": "8781626"
     },
     {
+      "colegio": "BAU",
+      "nombre_alumno": "Mayra Mía Renata García Aguilera",
+      "nombre_contratante": "Karina Ignacia Aguilera Villalba",
+      "cedula": "2304208",
+      "telefono": "973229917",
+      "email": "karinaaguilera722@gmail.com",
+      "fecha_nacimiento": "11/Febrero/2010",
+      "fecha_firma": "19/5/2026, 5:46:45 p. m.",
+      "monto_total": "0",
+      "saldo_pendiente": "0",
+      "pagos": [
+        {
+          "nombre": "Seña",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Refuerzo",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 1 - Feb",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 2 - Mar",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 3 - Abr",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 4 - May",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 5 - Jun",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 6 - Jul",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 7 - Ago",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 8 - Sep",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 9 - Oct",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 10 - Nov",
+          "estado": "pendiente",
+          "monto": ""
+        },
+        {
+          "nombre": "Cuota 11 - Dic",
+          "estado": "pendiente",
+          "monto": ""
+        }
+      ],
+      "usuario": "2304208",
+      "password": "2304208"
+    },
+    {
       "colegio": "SOL",
       "nombre_alumno": "Tobias Valentin Aquino Torres",
       "nombre_contratante": "Marcia Estela Torres De Aquino",
@@ -3738,12 +3900,12 @@
       "fecha_nacimiento": "15/Febrero/2010",
       "fecha_firma": "27/4/2026, 10:10:33 a. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "4980000",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
-          "estado": "pendiente",
-          "monto": ""
+          "estado": "pagada",
+          "monto": "400000"
         },
         {
           "nombre": "Refuerzo",
