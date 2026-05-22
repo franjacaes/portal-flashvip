@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "21/05/2026 08:42 hs",
+  "ultima_actualizacion": "22/05/2026 09:39 hs",
   "total_clientes": 62,
   "clientes": [
     {
@@ -1875,12 +1875,12 @@
       "fecha_nacimiento": "8/Mayo/2010",
       "fecha_firma": "8/5/2026, 3:24:13 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "4980000",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
-          "estado": "pendiente",
-          "monto": ""
+          "estado": "pagada",
+          "monto": "400000"
         },
         {
           "nombre": "Refuerzo",
@@ -2360,13 +2360,13 @@
       "email": "mirthasilverosantacruz@gmail.com",
       "fecha_nacimiento": "6/Noviembre/2009",
       "fecha_firma": "21/5/2026, 6:19:32 a. m.",
-      "monto_total": "0",
+      "monto_total": "4980000",
       "saldo_pendiente": "0",
       "pagos": [
         {
           "nombre": "Seña",
-          "estado": "pendiente",
-          "monto": ""
+          "estado": "pagada",
+          "monto": "400000"
         },
         {
           "nombre": "Refuerzo",
