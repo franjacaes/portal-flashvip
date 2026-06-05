@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "03/06/2026 11:29 hs",
+  "ultima_actualizacion": "05/06/2026 11:14 hs",
   "total_clientes": 62,
   "clientes": [
     {
@@ -903,7 +903,7 @@
       "fecha_nacimiento": "13/Mayo/2009",
       "fecha_firma": "19/5/2026, 3:05:38 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -984,7 +984,7 @@
       "fecha_nacimiento": "27/Abril/2010",
       "fecha_firma": "19/5/2026, 4:45:01 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -1065,7 +1065,7 @@
       "fecha_nacimiento": "1/Diciembre/2009",
       "fecha_firma": "19/5/2026, 7:02:07 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -1227,7 +1227,7 @@
       "fecha_nacimiento": "19/Enero/2010",
       "fecha_firma": "7/5/2026, 12:08:13 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "4580000",
+      "saldo_pendiente": "4180000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -1236,8 +1236,8 @@
         },
         {
           "nombre": "Refuerzo",
-          "estado": "pendiente",
-          "monto": ""
+          "estado": "pagada",
+          "monto": "400000"
         },
         {
           "nombre": "Cuota 1 - Feb",
@@ -2361,7 +2361,7 @@
       "fecha_nacimiento": "6/Noviembre/2009",
       "fecha_firma": "21/5/2026, 6:19:32 a. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "0",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
@@ -3414,12 +3414,12 @@
       "fecha_nacimiento": "28/Septiembre/2009",
       "fecha_firma": "24/4/2026, 2:19:41 p. m.",
       "monto_total": "4980000",
-      "saldo_pendiente": "4980000",
+      "saldo_pendiente": "4580000",
       "pagos": [
         {
           "nombre": "Seña",
-          "estado": "pendiente",
-          "monto": ""
+          "estado": "pagada",
+          "monto": "400000"
         },
         {
           "nombre": "Refuerzo",
@@ -3737,8 +3737,8 @@
       "email": "karinaaguilera722@gmail.com",
       "fecha_nacimiento": "11/Febrero/2010",
       "fecha_firma": "19/5/2026, 5:46:45 p. m.",
-      "monto_total": "0",
-      "saldo_pendiente": "0",
+      "monto_total": "4980000",
+      "saldo_pendiente": "4980000",
       "pagos": [
         {
           "nombre": "Seña",
